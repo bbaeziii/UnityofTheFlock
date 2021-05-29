@@ -22,21 +22,18 @@
 			rel="stylesheet"
 			href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans"
 		/>
-		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="/styles.css" />
 
 		<title>Unity Of The Flock</title>
 	</head>
 	<body>
+		
 		<div class="jumbotron jumbotron-fluid bg-info">
 			<!--Jumbotron Begins-->
-			<div class="container">
-				<h1 class="display-2">Unity of The Flock</h1>
-				<p class="lead">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua.
-				</p>
+			<div class="container mt-4">				
+				<h1 class="display-2">Unity of The Flock</h1>			
 				<nav class="navbar navbar-expand-lg navbar-light bg-info ml-4">
-					<a class="navbar-brand" href="/index.html">Home</a>
+					<a class="navbar-brand" href="/index.html" style="color: white;">Home</a>
 					<button
 						class="navbar-toggler"
 						type="button"
@@ -51,50 +48,28 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav mr-auto">
 							<li class="nav-item active">
-								<a class="nav-link" href="/aboutme.html"
-									>About Me! <span class="sr-only">(current)</span></a
+								<a class="nav-link" href="/aboutme.html" style="color: white;"
+									>About Me <span class="sr-only">(current)</span></a
 								>
 							</li>
-							<li class="nav-item dropdown">
-								<a
-									class="nav-link dropdown-toggle ml-4"
-									href="#"
-									id="navbarDropdown"
-									role="button"
-									data-toggle="dropdown"
-									aria-haspopup="true"
-									aria-expanded="false"
+                            <li class="nav-item active">
+								<a class="nav-link" href="/fitness.html" style="color: white;"
+									>Fitness <span class="sr-only">(current)</span></a
 								>
-									Fitness
-								</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<a class="dropdown-item" href="#">Stories</a>
-									<a class="dropdown-item" href="#">Pictures</a>
-									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" href="#">Something else here</a>
-								</div>
 							</li>
-							<li class="nav-item dropdown">
-								<a
-									class="nav-link dropdown-toggle ml-4"
-									href="/community.html"
-									id="navbarDropdown"
-									role="button"
-									data-toggle="dropdown"
-									aria-haspopup="true"
-									aria-expanded="false"
+                            <li class="nav-item active">
+								<a class="nav-link" href="/community.html" style="color: white;"
+									>Community <span class="sr-only">(current)</span></a
 								>
-									Community
-								</a>
+							</li>							
 								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 									<a class="dropdown-item" href="#">Stories</a>
-									<a class="dropdown-item" href="#">Pictures</a>
-									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" href="#">Something else here</a>
+									<a class="dropdown-item" href="#">Pictures</a>													
 								</div>
 							</li>
 						</ul>
-						<form class="form-inline my-2 my-lg-0 ml-4">
+						
+						<form class="form-inline my-2 my-lg-0 ml-4" method="GET">
 							<input
 								class="form-control mr-sm-2"
 								type="email"
@@ -110,56 +85,23 @@
 			</div>
 		</div>
 		<!--End of Jumbotron-->
-		<div class="container">
-			<!--Beginning Of Container-->
-			<div class="row">
-				<div class="col">
-					<img
-						src="/images/fitpic1.jpg"
-						class="img-thumbnail"
-						alt="fitpic1"
-						width="304"
-						height="236"
-					/>
-				</div>
-				<div class="col">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-						ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-						aliquip ex ea commodo consequat. Duis aute irure dolor in
-						reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-						pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-						culpa qui officia deserunt mollit anim id est laborum.
-					</p>
-				</div>
-			</div>
-		</div>
-		<!--End of Container-->
+		
 		<div class="container">
 			<div class="row">
 				<div class="col mt-4">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-						ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-						aliquip ex ea commodo consequat. Duis aute irure dolor in
-						reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-						pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-						culpa qui officia deserunt mollit anim id est laborum.
-					</p>
+					<h1>Welcome</h1> 
 				</div>
-				<img
-					src="/images/fitpic2.jpg"
-					class="img-thumbnail mt-4"
-					alt="fitpic1"
-					width="304"
-					height="236"
-				/>
-				<!--End of Picture-->
 			</div>
-			<!--End of Row-->
+			<hr />
 		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col mt-4">
+					<img src="/images/group1.jpeg" width="1500" class="img-fluid"/>
+				</div>
+			</div>
+			<hr class="mt-4"/>
+		</div>			
 		<div class="container">
 			<!--Beginning of Success Container-->
 			<div class="row">
@@ -172,17 +114,25 @@
 				<div class="col">
 					<!--Success Story Paragraph-->
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam
-						velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate
-						commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor
-						sed eleifend tristique, tortor mauris molestie elit, et lacinia
-						ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium
-						sit amet quis magna. Aenean velit odio, elementum in tempus ut,
-						vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate
-						eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius
-						pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem
-						sit amet orci ullamcorper at ultricies metus viverra. Pellentesque
-						arcu mauris, malesuada quis ornare accumsan, blandit sed diam.
+						It amazes me how far I've come in my fitness and health journey.
+						I started this journey just wanting to get back my pre-pregnancy body.						
+					</p>
+					<p>
+						I needed something that would keep me consistent and help me learn how 
+						to eat the right foods and portions again. Who would have know it would turn 
+						into a Business.
+					</p>
+					<p>
+						<strong>Hi, my name is Lynnette Baez and the Founder of Team Unity of The Flock.</strong>  
+					</p>
+					<p>
+						I started my journey committing to an 80 day program. My results where amazing and
+						I fell in love with myself again. Not because I lost some weight but more importantly I 
+						found myself.
+					</p>
+					<p>
+						Since then I have been building Team Unity of The Flock to give back 
+						what I know so many individuals could benefit from. 
 					</p>
 				</div>
 				<div class="col">
@@ -200,7 +150,8 @@
 		<div class="container">
 			<!--Affirmation Title Begings-->
 			<div class="row">
-				<div class="col">
+				<div class="col mt-4
+				">
 					<h1>Recent Affirmations</h1>
 				</div>
 			</div>
@@ -208,42 +159,53 @@
 		</div>
 		<!--This is where I would like a hortionzal line-->
 		<!--End of Affirmations Title-->
-		<div class="container pt-4">
+		<div class="container pt-4 mb-4">
 			<!--Affirmations Begins-->
 			<div class="row">
-				<div class="col">
-					<h3 class="mb-4">Title</h3>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat. Duis aute irure dolor in
-					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-					pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-					culpa qui officia deserunt mollit anim id est laborum.
+				<div class="col mt-4">
+					<div class="card" style="width: 18rem;">
+						<img class="card-img-top" src="/images/autumn1.jpeg" alt="Card image cap">
+						<div class="card-body">
+						  <p class="card-text">I can choose any career that pleases <strong>me.</strong></p>
+						</div>
+					  </div>
 				</div>
-				<div class="col">
-					<h3 class="mb-4">Title</h3>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat. Duis aute irure dolor in
-					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-					pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-					culpa qui officia deserunt mollit anim id est laborum.
+				<div class="col mt-4">
+					<div class="card" style="width: 18rem;">
+						<img class="card-img-top" src="/images/fitpic1.jpg" alt="Card image cap">
+						<div class="card-body">
+						  <p class="card-text"><strong>Together</strong> we have great strengths.</p>
+						</div>
+					  </div>
 				</div>
-				<div class="col">
-					<h3 class="mb-4">Title</h3>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat. Duis aute irure dolor in
-					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-					pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-					culpa qui officia deserunt mollit anim id est laborum.
+				<div class="col mt-4">
+					<div class="card" style="width: 18rem;">
+						<img class="card-img-top" src="/images/philly1.jpeg" alt="Card image cap">
+						<div class="card-body">
+						  <p class="card-text">I am a <strong>Strong</strong> independent career woman.</p>
+						</div>
+					  </div>
 				</div>
 			</div>
-			<!--Affirmations Ends-->
 		</div>
+			<!--Affirmations Ends-->
+			
+			<footer class="site-footer mt-4">
+				<div class="card text-center">
+					<div class="card-header">
+					  Featured
+					</div>
+					<div class="card-body">
+					  <h5 class="card-title">Check out my social media channels!</h5>					  
+					  <a href="https://www.instagram.com/lynnette_baez/" id="ig" class="btn btn-primary" >Instragram</a>
+					  <a href="https://www.facebook.com/lynnette.baez" class="btn btn-primary">Facebook</a>
+					</div>
+					<div class="card-footer text-muted">
+					  Unity of The Flock
+					</div>
+				  </div>
+			</footer>
+		
 		<!--Container Ends-->
 
 		<!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
